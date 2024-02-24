@@ -20,6 +20,11 @@ require("lazy").setup({
 
 [3]: https://github.com/folke/lazy.nvim
 
+## Usage
+
+Just start writing something! As long as your file extensions end with `.tply`,
+this plugin will automatically trigger.
+
 ## License
 
 This software is generously licensed under the MIT license.
