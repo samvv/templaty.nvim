@@ -18,6 +18,8 @@
   "endjoin"
 ] @keyword
 
+(templaty_comment) @comment
+
 ;; Python highlights
 
 ; Identifier naming conventions
