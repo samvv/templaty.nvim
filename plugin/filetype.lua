@@ -21,7 +21,6 @@ vim.filetype.add({
   pattern = {
     ['.*.py.tply'] = function(path, buffer)
       return "templatypython", function(bufnr)
-        print('setting')
         vim.api.nvim_buf_set_option(bufnr, "shiftwidth", 4)
         vim.api.nvim_buf_set_option(bufnr, "tabstop", 4)
         vim.api.nvim_buf_set_option(bufnr, "softtabstop", -1)
